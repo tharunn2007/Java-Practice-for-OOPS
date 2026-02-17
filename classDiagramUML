@@ -1,0 +1,59 @@
+CLASS DIAGRAM CREATING IN STAR UML
+
+
+
+
+Scenario 1: University
+A university has several departments. Each department runs multiple courses. Students enroll in courses, and professors are responsible for teaching them. Sometimes professors also advise students outside of class. Courses can be either mandatory or elective.
+
+Clues:
+
+Imagine what happens if a department closes down — what becomes of its courses?
+
+Professors and students both belong to the university community. How might you capture their shared identity?
+
+How would you distinguish between a course that every student must take versus one chosen freely?
+
+Scenario 2: Online Shopping
+An e-commerce platform allows customers to place orders. Each order contains multiple items, and each item refers to a product. Customers can store multiple addresses for delivery. Payments can be made in different ways, such as credit card or UPI.
+
+Clues:
+
+Think about the “life” of an order — what parts of it vanish if the order itself is cancelled?
+
+Different payment methods share some common details but also have unique ones. How might you avoid duplication?
+
+Products are grouped into categories like electronics, clothing, or books. What’s the most efficient way to represent that grouping?
+
+Scenario 3: Hospital System
+A hospital manages doctors, patients, and appointments. Patients have medical records. Doctors may specialize as surgeons, pediatricians, or general physicians. Appointments can be scheduled, completed, or cancelled.
+
+Clues:
+
+Consider whether a patient’s medical record could exist independently of the patient.
+
+Surgeons, pediatricians, and general physicians all share some traits but differ in expertise. How might you capture that balance?
+
+Appointments move through different stages. How would you represent those changing states without creating separate classes for each?
+
+Scenario 4: Library
+A library lends books to members. Books are made up of chapters. Members can be students or faculty. Loans track which member borrowed which book. Books belong to genres such as fiction, nonfiction, science, or history.
+
+Clues:
+
+Think about the relationship between a book and its chapters — can chapters stand alone?
+
+Student and faculty members both borrow books, but their privileges differ. How might you reflect that?
+
+Genres are not physical entities but classifications. What’s the cleanest way to model them?
+
+Scenario 5: Vehicle Rental
+A rental company manages customers, vehicles, and rental contracts. Vehicles can be cars, bikes, or trucks. Customers can rent multiple vehicles. Each rental contract contains details of the rental period and cost. Vehicles run on different fuel types such as petrol, diesel, or electric.
+
+Clues:
+
+If a rental contract is removed, what happens to the details inside it?
+
+Cars, bikes, and trucks all share certain attributes but differ in others. How might you capture that hierarchy?
+
+Fuel types are limited and predefined. How would you represent them without creating separate classes?
